@@ -1,6 +1,7 @@
 // Cynthia Wu
 // CSE 143 AO with Batina Shikhalieva
 // Homework 3
+// 01/30/2020
 // The class AssassinManager is used to administer a game of assassin
 // in which to keep track of who is stalking whom and the history of
 // who killed whom
