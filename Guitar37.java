@@ -1,6 +1,7 @@
 // Cynthia Wu
 // CSE 143 AO with Batina Shikhalieva
 // Homework 2
+// 01/22/2020
 // The class Guitar37 can be used to keep track of a guitar instrument
 // containing 37 notes on the chromatic scale from 110Hz to 880Hz
 
