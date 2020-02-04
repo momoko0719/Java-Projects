@@ -1,6 +1,7 @@
 // Cynthia Wu
 // CSE 143 AO with Batina Shikhalieva
 // Homework 2
+// 01/22/2020
 // The class GuitarString simulates a vibrating guitar string with a
 // given frequency and is used to keep track of a ring buffer
 
