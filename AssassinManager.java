@@ -101,7 +101,7 @@ public class AssassinManager {
    //             (throws an IllgalStateException if not)
    //             the kill ring should contain the given name
    //             (throws an IllgalArgumentException if not)
-   // Post:       removes the killed person from the kill ring to the graveyard
+   // Post:       removes the killed person (ignore the case of the name) from the kill ring to the graveyard
    public void kill(String name) {
       if (gameOver()) {
          throw new IllegalStateException();
