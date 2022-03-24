@@ -1,4 +1,4 @@
-# Java Programming Basics
+# Java Programming Projects
 
 These include all assignments I completed from CSE 143, Winter 2020 at UW
 
