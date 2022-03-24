@@ -1,7 +1,6 @@
 // Cynthia Wu
 // CSE 143 AO with Batina Shikhalieva
 // Homework 1
-// 01/16/2020
 // The class LetterInventory can be used to take a String and store
 // the count of letters(ignoring the case) of the alphabet in it.
 

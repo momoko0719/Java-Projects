@@ -1,7 +1,6 @@
 // Cynthia Wu
 // CSE 143 AO with Batina Shikhalieva
 // Homework 3
-// 01/30/2020
 // The class AssassinManager is used to administer a game of assassin
 // in which to keep track of who is stalking whom and the history of
 // who killed whom
@@ -101,7 +100,7 @@ public class AssassinManager {
    //             (throws an IllgalStateException if not)
    //             the kill ring should contain the given name
    //             (throws an IllgalArgumentException if not)
-   // Post:       removes the killed person (ignore the case of the name) from the kill ring to the graveyard
+   // Post:       removes the killed person (ignore case) from the kill ring to the graveyard
    public void kill(String name) {
       if (gameOver()) {
          throw new IllegalStateException();

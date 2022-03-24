@@ -1,7 +1,6 @@
 // Cynthia Wu
 // CSE 143 AO with Batina Shikhalieva
 // Homework 2
-// 01/22/2020
 // The class Guitar37 can be used to keep track of a guitar instrument
 // containing 37 notes on the chromatic scale from 110Hz to 880Hz
 
@@ -12,7 +11,7 @@ public class Guitar37 implements Guitar {
    public static final String KEYBOARD = "q2we4r5ty7u8i9op-[=zxdcfvgbnjmk,.;/' ";
    // the layout of the keyboard
    
-   // Post: constructs an array of GuitarStrings with frequencies
+   // Post: constructs a list of GuitarStrings with frequencies
    //       ranging from 110 to 880Hz
    public Guitar37() {
       ticTimes = 0;
@@ -36,7 +35,7 @@ public class Guitar37 implements Guitar {
       return (KEYBOARD.indexOf(string) != -1);
    }
    
-   // Pre : the given character must be in the Sting of keyboard
+   // Pre : the given character must be in the String of keyboard
    //       (throws an IllegalArgumentException if not)
    // Post: plucks the given character in the keyboard string
    public void pluck(char string) {
